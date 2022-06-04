@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 40%;
+    margin: 4rem auto;
+}
+
+.parent input{
+    width: 70%;
+    padding: 6px 10px;
+    border: 1px solid darkgoldenrod;
+}
+
+.parent button{
+    padding: 6px 10px;
+    color: gray;
+    background: transparent;
+    border: 1px solid darkgoldenrod;
+}
+
+#list{
+    width: 60%;
+    margin: auto;
+}
+
+#list button{
+    color: white;
+    background-color: darkgoldenrod;
+    border: none;
+    padding: 4px 10px;
+    margin: 3px;
+}
+
+#list li{
+    list-style: none;
+    font-size: 17px;
+    color: gray;
+    line-height: 30px;
+    padding: 0px 10px ;
+    height: 30px;
+    box-shadow: 1px 1px 4px gray;
+    position: relative;
+    margin: 15px 0;
+}
+
+.div{
+position: absolute;
+right: 0;
+top: 0;
+line-height: 26px;
+}
